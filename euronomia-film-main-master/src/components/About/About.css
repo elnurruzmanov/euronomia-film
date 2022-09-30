@@ -1,0 +1,328 @@
+.about {
+  background-color: #1a1a1a;
+  position: relative;
+  background-image: url("../../images/aboutBackground.png"),
+    url("../../images/aboutBackgroun2.png");
+  background-position: 0 0, bottom right;
+  background-repeat: no-repeat;
+}
+
+.about .container {
+  padding: 40px 40px;
+}
+
+.about-us {
+  margin-top: 60px;
+  margin-left: 80px;
+}
+
+.about_img-text {
+  font-family: "Onest";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+  opacity: 0.8;
+  position: absolute;
+  top: 53%;
+  left: 30%;
+  z-index: 9;
+}
+
+.about_img-title {
+  font-family: "Onest";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  z-index: 9;
+}
+
+.about-left {
+  position: absolute;
+  top: 30%;
+  left: 23%;
+}
+
+.about-left:hover {
+  cursor: pointer;
+}
+
+.about-right {
+  position: absolute;
+  top: 30%;
+  right: 6%;
+}
+
+.about-right:hover {
+  cursor: pointer;
+}
+
+.about-titles {
+  display: flex;
+  align-items: center;
+}
+
+.about-title {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 126.5%;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+  background: linear-gradient(
+    95.34deg,
+    #f8f8f8 24.04%,
+    rgba(239, 239, 239, 0.84) 82.81%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0px 4.06593px 20.3297px rgba(0, 0, 0, 0.35);
+}
+
+.line {
+  margin-left: 30px;
+}
+
+.about-text {
+  font-family: "Onest";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  opacity: 0.9;
+  width: 600px;
+}
+
+.span {
+  margin-top: 20px;
+}
+
+.about-group {
+  position: absolute;
+  bottom: 4%;
+  right: 13%;
+  width: 300px;
+}
+
+.about-rights {
+  position: absolute;
+  right: 0%;
+  top: 14%;
+}
+
+.about-lefts {
+  position: absolute;
+  left: 0%;
+  top: 35%;
+}
+
+.about-rights2 {
+  display: none;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+/*****************************/
+
+/***** RESPONSIVE ******/
+
+@media only screen and (max-width: 768px) {
+  .navbar-list {
+    overflow: hidden;
+  }
+  .about_img-title {
+    top: 40%;
+    left: 20%;
+    font-size: 13.4182px;
+  }
+
+  .about_img-text {
+    top: 43%;
+    left: 20%;
+    font-size: 8.94545px;
+  }
+
+  .about{
+    overflow: hidden;
+  }
+
+  .about-us {
+    margin-bottom: 120px;
+    margin-left: 0;
+  }
+
+  .about-group {
+    bottom: 0%;
+    width: 200px;
+    right: 30%;
+  }
+
+  .about-text {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .about-title {
+    font-size: 28px;
+    line-height: 98%;
+  }
+
+  .line {
+    width: 188px;
+  }
+
+  .swiper-button-prev {
+    top: 90% !important;
+    z-index: 9 !important;
+    left: 30% !important;
+  }
+
+  .swiper-button-next {
+    top: 90% !important;
+    right: 30% !important;
+  }
+
+  .about-lefts {
+    display: none;
+  }
+
+  .about-rights {
+    display: none;
+  }
+
+  .about-rights2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .navbar-list.open {
+    transform: translateY(0);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 44.2%;
+    height: 134vh;
+    top: -51%;
+    padding: 50px;
+    left: 73.4%;
+  }
+
+  /* .navbar-list{
+  display: none;
+ } */
+}
+
+@media only screen and (max-width: 575px) {
+  .line {
+    width: 30px;
+  }
+
+  .about_img-text {
+    top: 40%;
+  }
+
+  .about_img-title {
+    top: 38%;
+  }
+
+  .about{
+    overflow: hidden;
+  }
+
+  .navbar {
+    padding: 40px 0px;
+    margin-bottom: 40px;
+  }
+
+  .navbar-list.open {
+    transform: translateY(0);
+    align-items: center;
+    display: flex;
+    height: 151vh;
+    justify-content: flex-start;
+    left: 30%;
+    padding: 50px;
+    top: -51%;
+    transform: translateY(0);
+    width: 90%;
+    z-index: 999;
+  }
+
+
+}
+
+@media only screen and (max-width: 445px) {
+  .about_img-title {
+    top: 35%;
+  }
+
+  .about_img-text {
+    top: 36.6%;
+  }
+
+  .line {
+    width: 30px;
+  }
+
+  .about-title {
+    font-size: 25px;
+  }
+
+  .swiper-button-prev {
+    left: 20% !important;
+  }
+  .swiper-button-next {
+    right: 20% !important;
+  }
+
+  .navbar {
+    padding: 30px 0px;
+  }
+
+  /* .navbar-list{
+    display: none;
+  }   */
+}
+
+@media only screen and (max-width: 375px) {
+  .about_img-title {
+    top: 32%;
+  }
+
+  .about_img-text {
+    top: 33.6%;
+  }
+}
+
+/* CLOSE RESPONSIVE */
+
+
+ .about-group:hover{
+  animation-name: aboutGroup;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 3s;
+  
+}
+
+@keyframes aboutGroup{
+  from{
+    transform: translate(0,0);
+  }
+  to{
+    transform: scale(0.8);
+  }
+} 

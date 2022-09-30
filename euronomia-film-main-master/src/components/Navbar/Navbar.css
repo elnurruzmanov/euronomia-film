@@ -1,0 +1,241 @@
+.navbar {
+  position: relative;
+}
+
+/* .navbar .container {
+  padding: 40px 50px;
+} */
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar_link {
+  font-family: "Onest";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21.2766px;
+  line-height: 27px;
+  color: #969595;
+  opacity: 0.7;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.menu-link {
+  display: none;
+}
+
+.navbar_link:hover {
+  color: #fff;
+}
+
+.link2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav-menu {
+  position: absolute;
+  right: 10%;
+  top: 52%;
+  display: none;
+}
+
+.nav-exit {
+  position: absolute;
+  right: 10%;
+  top: 52%;
+  display: none;
+}
+
+.navbar_link-title {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25.3187px;
+  line-height: 126.5%;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+  background: linear-gradient(
+    95.42deg,
+    #f8f8f8 15.14%,
+    rgba(239, 239, 239, 0.84) 66.86%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0px 3.51648px 17.5824px rgba(0, 0, 0, 0.35);
+  margin: 0px;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+/*****************************************/
+
+/* OPEN RESPONSIVE */
+
+@media only screen and (max-width: 1020px) {
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(173.55deg, #090909 16.32%, #22120d 78.47%);
+    left: 70%;
+    /* width: 30%;
+    height:91vh; */
+    padding: 10px;
+    top: 0;
+    transform: translateX(100%);
+    transition: all 0.45s;
+    z-index: 9;
+  }
+
+  .navbar-item {
+    margin: 10px 0px;
+  }
+
+  .navbar-item:nth-child(3) {
+    display: none;
+  }
+
+  .navbar-list .link2 {
+    display: none;
+  }
+
+  .navbar_link {
+    font-size: 25px;
+  }
+
+  .menu-link {
+    font-family: "Onest";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.8201px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    opacity: 0.7;
+    position: absolute;
+    display: block;
+  }
+
+  .navbar-list.open {
+    transform: translateY(0);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 47.2%;
+    height: 100vh;
+    top: -49%;
+    padding: 50px;
+    left: 72%;
+  }
+
+  .navbar-item:nth-child(1) {
+    margin-top: 90px;
+  }
+
+  .navbar-item {
+    margin: 90px 0px 0px 0px;
+  }
+
+  .nav-toggle {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    right: 9%;
+    z-index: 9999;
+  }
+
+  .nav-toggle .bar {
+    position: relative;
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+  }
+
+  .nav-toggle .bar::before,
+  .nav-toggle .bar::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 2px;
+    transition: all 0.45s ease-in-out;
+  }
+
+  .nav-toggle .bar::before {
+    width: 25px;
+    transform: translateY(-8px);
+    left: 0;
+  }
+
+  .nav-toggle .bar::after {
+    width: 32px;
+    transform: translateY(8px);
+  }
+
+  .nav-toggle.open > .bar {
+    transform: translateX(-40px);
+    background: transparent;
+    z-index: 9;
+  }
+
+  .nav-toggle.open > .bar::before {
+    width: 32px;
+    transform: rotate(45deg) translate(26px, -26px);
+    z-index: 9;
+  }
+  .nav-toggle.open > .bar::after {
+    width: 32px;
+    transform: rotate(-45deg) translate(26px, 26px);
+    z-index: 9;
+  }
+
+  .link2 {
+    position: absolute;
+    top: 5%;
+    left: -210%;
+  }
+}
+
+@media only screen and (max-width: 668px) {
+  .navbar-list.open {
+    transform: translateY(0);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 44.2%;
+    height: 120vh;
+    top: -49%;
+    padding: 50px;
+    left: 52%;
+  }
+}
+
+@media only screen and (max-width: 448px) {
+  .navbar-list.open {
+    transform: translateY(0);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 54.2%;
+    height: 120vh;
+    top: -49%;
+    padding: 50px;
+    left: 12%;
+  }
+}

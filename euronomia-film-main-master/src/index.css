@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/* .container{
+  width: 1060px;
+} */
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+ul{
+  list-style: none;
+}
+
+@font-face {font-family: "Monument Extended";  src: url("//db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.woff") format("woff"), url("//db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.svg#Monument Extended") format("svg"); }
+
+@font-face{
+  font-family: "Monument Extended";
+  src: url("//db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.eot");
+}
+
+@font-face{
+  font-family: "Monument Extended";
+  src: url("//db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.eot");
+}
+
+@font-face {
+  font-family: "Onest";
+  src: url("./fonts/OnestBold1602-hint.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Onest";
+  src: url("./fonts/OnestBlack1602-hint.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Onest";
+  src: url("./fonts/OnestExtraBold1602-hint.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Onest";
+  src: url("./fonts/OnestLight1602-hint.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Onest";
+  src: url("./fonts/OnestMedium1602-hint.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Onest";
+  src: url("./fonts/OnestRegular1602-hint.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Onest";
+  src: url("./fonts/OnestThin1602-hint.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Monument Extended   FONTS */
+
+@font-face {
+  font-family: "Monument Extended";
+  src: url("./fonts/MonumentExtended-Regular.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Monument Extended";
+  src: url("./fonts/MonumentExtended-Ultrabold.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
