@@ -150,7 +150,7 @@
 
   .nav-toggle {
     display: flex;
-    width: 50px;
+    width: 30px;
     height: 50px;
     align-items: center;
     justify-content: center;
@@ -158,11 +158,12 @@
     position: absolute;
     right: 9%;
     z-index: 9999;
+    margin-left: 24px;
   }
 
   .nav-toggle .bar {
     position: relative;
-    width: 32px;
+    width: 30px;
     height: 2px;
     background-color: #fff;
   }

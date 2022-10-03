@@ -14,7 +14,7 @@ const Lunik = () => {
         <div className="lunik-info">
           <img src={LunikImg} alt="LunikImg" />
           <div className="lunik_info-infos">
-            <h1 className="lunik_info-title">Lunik</h1>
+            <h1 className="lunik_info-title">Lunik-3</h1>
             <p className="lunik-text">
               <span className="lunik-span">Genre:</span>
               drama, comedy

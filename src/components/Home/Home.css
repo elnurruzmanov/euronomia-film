@@ -1,22 +1,23 @@
 .home {
   background-color: #1a1a1a;
-
   background-image: url("../../images/background-eunomia.png");
   background-repeat: no-repeat;
   position: relative;
-  background-size: cover;
+  background-size: cover; 
+  height: 100vh;
+  overflow: hidden;
 }
 
 .home .container {
-  padding: 40px 40px;
+  padding: 30px 40px;
 }
 
 .eunomia-title {
   font-family: "Monument Extended";
   font-style: normal;
   font-weight: 400;
-  font-size: 136px;
-  line-height: 126.5%;
+  font-size: 82px;
+  line-height: 96.5%;
   letter-spacing: -0.025em;
   text-transform: uppercase;
   background: linear-gradient(
@@ -33,6 +34,11 @@
 
 .eunomia-title2 {
   display: none;
+}
+
+.eunomia-img{
+  width: 560px;
+  margin-left: 220px;
 }
 
 /* CLASS METEORITES */
@@ -57,24 +63,28 @@
   position: absolute;
   bottom: 8%;
   right: 2%;
+  width: 160px;
 }
 
 .meteorit5 {
   position: absolute;
   top: 54%;
   left: 0%;
+  width: 250px;
 }
 
 .meteorit6 {
   position: absolute;
   top: 14%;
   left: 0%;
+  width: 130px;
 }
 
 .meteorit7 {
   position: absolute;
   bottom: 0;
   left: 2%;
+  width: 250px;
 }
 
 .meteorit8 {
@@ -109,9 +119,14 @@
     font-size: 100px;
     z-index: 999;
   }
+  
+  .home{
+    height: 100vh;
+    overflow: hidden;
+  }
 
   .eunomia-img {
-    margin-left: 80px;
+    margin-left: 10px;
   }
 
   .meteorit4 {
@@ -151,10 +166,12 @@
 
   .eunomia-title {
     font-size: 80px;
+    margin-top: 50px;
   }
 
   .eunomia-img {
     margin-left: 30px;
+    margin-top: 60px;
   }
 
   .meteorites {
@@ -166,6 +183,8 @@
   }
   .meteorit6 {
     width: 120px;
+    position: absolute;
+    top: 22%;
   }
   .meteorit3 {
     width: 120px;

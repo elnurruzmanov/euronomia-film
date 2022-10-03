@@ -33,16 +33,16 @@ const Founders = () => {
             <h3 className="founders_info-title">Information</h3>
             <p className="founders-text">
               Yulia graduated from Russian State University of Cinema (VGIK) in
-              2003, Master Degree: History of Cinema <p className="span">Yulia started as a media
+              2003, Master Degree: History of Cinema. <p className="span">Yulia started as a media
               event producer in Moscow working with filmmakers such as Francis
               Ford Coppola, Tom Tykwer and others. Produced shooting of the
               video interviews from the film festivals in Cannes, Berlin,
               Veniece, Locarno, and also produced shooting of the documentary
               tele-films for korean television companies KMB, MBC. Yulia led the
               photo- and video shooting department in Tashkeel Studio, Dubai.
-              Yulia was the head SMM manager in Bolshoi theater</p>  Julia is a
+              Yulia was the head SMM manager in Bolshoi theater.</p>  Julia is a
               member of the jury of international independent film festivals in
-              Busan, Abu Dhabi, North Cyprus and Vladivostok
+              Busan, Abu Dhabi, North Cyprus and Vladivostok.
             </p>
           </div>
         </div>

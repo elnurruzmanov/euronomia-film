@@ -81,8 +81,6 @@ const About = () => {
               <h2 className="about-title">ABOUT US</h2>
               <img src={Line} alt="Line" className="line" />
             </div>
-            <p className="about_img-title">Eunomia film's team</p>
-            <p className="about_img-text">During filming the Lunik-3 </p>
             <p className="about-text">
               «Eunomia Film» is a film company founded in 2021 by the producer
               of documentaries, feature films and serials Yulia Kim - von den
@@ -90,11 +88,11 @@ const About = () => {
               distribution in Russia and abroad. We collaborate with
               world-famous directors, producers and actors to create films that
               participate in international film festivals. In the near future,
-              we plan to release an animation project for viewers of all ages
+              we plan to release an animation project for viewers of all ages.
               <p className="span">
                 Eunomia Film» also provides services for foreign film companies,
                 assists in obtaining filming permits and carries out the entire
-                production cycle
+                production cycle.
               </p>
             </p>
             <img src={aboutGroup} alt="aboutGroup" className="about-group" />
