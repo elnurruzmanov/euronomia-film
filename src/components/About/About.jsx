@@ -29,17 +29,7 @@ import aboutSwiper2 from "../../images/aboutSwiper2.jpg";
 import aboutSwiper3 from "../../images/aboutSwiper3.jpg";
 import aboutSwiper4 from "../../images/aboutSwiper4.jpg";
 import aboutSwiper5 from "../../images/aboutSwiper5.jpg";
-import aboutSwiper6 from "../../images/aboutSwiper6.jpg";
-import aboutSwiper7 from "../../images/aboutSwiper7.jpg";
-import aboutSwiper8 from "../../images/aboutSwiper8.jpg";
-import aboutSwiper9 from "../../images/aboutSwiper9.jpg";
-import aboutSwiper10 from "../../images/aboutSwiper10.jpg";
-import aboutSwiper11 from "../../images/aboutSwiper11.jpg";
-import aboutSwiper12 from "../../images/aboutSwiper12.jpg";
-import aboutSwiper13 from "../../images/aboutSwiper13.jpg";
-import aboutSwiper14 from "../../images/aboutSwiper14.jpg";
-import aboutSwiper15 from "../../images/aboutSwiper15.jpg";
-import aboutSwiper16 from "../../images/aboutSwiper16.jpg";
+
 import aboutRights2 from "../../images/about-rights2.png";
 
 const About = () => {
@@ -81,83 +71,6 @@ const About = () => {
               <img
                 src={aboutSwiper5}
                 alt="aboutSwiper5"
-                className="about-swiper"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={aboutSwiper6}
-                alt="aboutSwiper6"
-                className="about-swiper"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={aboutSwiper7}
-                alt="aboutSwiper7"
-                className="about-swiper"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={aboutSwiper8}
-                alt="aboutSwiper8"
-                className="about-swiper"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={aboutSwiper9}
-                alt="aboutSwiper9"
-                className="about-swiper"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={aboutSwiper10}
-                alt="aboutSwiper10"
-                className="about-swiper"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={aboutSwiper11}
-                alt="aboutSwiper11"
-                className="about-swiper"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={aboutSwiper12}
-                alt="aboutSwiper12"
-                className="about-swiper"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={aboutSwiper13}
-                alt="aboutSwiper13"
-                className="about-swiper"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={aboutSwiper14}
-                alt="aboutSwiper14"
-                className="about-swiper"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={aboutSwiper15}
-                alt="aboutSwiper15"
-                className="about-swiper"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={aboutSwiper16}
-                alt="aboutSwiper16"
                 className="about-swiper"
               />
             </SwiperSlide>
