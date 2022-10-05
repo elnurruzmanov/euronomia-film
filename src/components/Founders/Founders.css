@@ -1,16 +1,10 @@
 .founders {
   background-color: #1a1a1a;
-  background-image: url("../../images/ellipse.png");
-  background-repeat: no-repeat;
-  background-position: top 210px;
+  background-image: url("../../images/ellipse.png"), url("../../images/ellipse2.png");
+  background-repeat: no-repeat no-repeat;
+  background-position: top 210px, top 100px right 0%;
   position: relative;
   padding: 40px 40px;
-}
-
-.founders .container {
-  background-image: url("../../images/ellipse2.png");
-  background-repeat: no-repeat;
-  background-position: top 100px left 70px;
 }
 
 .founders-title {
@@ -200,6 +194,10 @@
   }
   .navbar{
     padding:30px 0px;
+  }
+
+  .founders{
+    padding: 0px;
   }
 
   .films-name{

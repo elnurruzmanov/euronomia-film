@@ -90,8 +90,6 @@
     flex-direction: column;
     background: linear-gradient(173.55deg, #090909 16.32%, #22120d 78.47%);
     left: 70%;
-    /* width: 30%;
-    height:91vh; */
     padding: 10px;
     top: 0;
     transform: translateX(100%);
@@ -105,6 +103,10 @@
 
   .navbar-item:nth-child(3) {
     display: none;
+  }
+
+  .navbar{
+    padding: 30px 0px;
   }
 
   .navbar-list .link2 {
@@ -150,7 +152,7 @@
 
   .nav-toggle {
     display: flex;
-    width: 30px;
+    width: 20px;
     height: 50px;
     align-items: center;
     justify-content: center;
@@ -179,13 +181,13 @@
   }
 
   .nav-toggle .bar::before {
-    width: 25px;
+    width: 30px;
     transform: translateY(-8px);
     left: 0;
   }
 
   .nav-toggle .bar::after {
-    width: 32px;
+    width: 10px;
     transform: translateY(8px);
   }
 

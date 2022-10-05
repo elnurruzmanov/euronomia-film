@@ -4,7 +4,7 @@ import "./Lunik.css"
 import Navbar from '../Navbar/Navbar'
 
 //images
-import LunikImg from "../../images/Lunik.png"
+import LunikImg from "../../images/polyglot.jpg"
 
 const Lunik = () => {
   return (
@@ -12,7 +12,7 @@ const Lunik = () => {
       <div className="container">
         <Navbar />
         <div className="lunik-info">
-          <img src={LunikImg} alt="LunikImg" />
+          <img src={LunikImg} alt="LunikImg" className='lunik_img' />
           <div className="lunik_info-infos">
             <h1 className="lunik_info-title">Lunik-3</h1>
             <p className="lunik-text">

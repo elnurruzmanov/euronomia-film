@@ -62,7 +62,7 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-shadow: 0px 4.06593px 20.3297px rgba(0, 0, 0, 0.35);
-  transition: 0.3s;
+  transition:1s;
 }
 
 .projects-title:hover {
@@ -73,15 +73,7 @@
     #fe4e00,
     #fe4e00,
     #fe4e00
-  );
-  color: var(--color-background);
-  font-size: var(--font-size);
-  font-weight: var(--font-weight);
-  letter-spacing: -0.025em;
-  padding: calc(--stroke-width / 2);
-  -webkit-text-stroke-color: transparent;
-  -webkit-text-stroke-width: var(--stroke-width);
-  text-shadow: #fe4e00 1px 1px 10px;
+  )
 }
 
 .polyglots-link {
@@ -205,6 +197,11 @@
   .drama-text {
     font-size: 16px;
   }
+
+  .projects2 .container {
+    padding: 0px;
+  }
+  
 }
 
 @media only screen and (max-width: 375px) {

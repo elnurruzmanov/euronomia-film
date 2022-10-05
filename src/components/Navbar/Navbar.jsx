@@ -5,9 +5,7 @@ import "./Navbar.css";
 import { Link, NavLink } from "react-router-dom";
 // import { useState } from "react";
 
-//images
-// import NavMenu from "../../icons/navMenu.png";
-// import NavExit from "../../icons/navExit.png";
+
 
 const Navbar = () => {
 

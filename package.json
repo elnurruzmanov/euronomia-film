@@ -12,6 +12,7 @@
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.4.1",
     "react-scripts": "5.0.1",
+    "react-tsparticles": "^2.3.3",
     "swiper": "^8.4.2",
     "tilt.js": "^1.2.1",
     "web-vitals": "^2.1.4"

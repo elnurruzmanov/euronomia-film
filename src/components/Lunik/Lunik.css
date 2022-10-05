@@ -1,6 +1,7 @@
-.luniks{
+.luniks {
   background-color: #1a1a1a;
-  background-image: url("../../images/polyglotRights.png"), url("../../images/polyglotLefts.png");
+  background-image: url("../../images/polyglotRights.png"),
+    url("../../images/polyglotLefts.png");
   background-repeat: no-repeat, no-repeat;
   background-position: top 0% left 0%, bottom 0% right -210%;
 }
@@ -22,8 +23,8 @@
   font-family: "Monument Extended";
   font-style: normal;
   font-weight: 400;
-  font-size: 80px;
-  line-height: 126.5%;
+  font-size: 60px;
+  line-height: 116.5%;
   letter-spacing: -0.025em;
   text-transform: uppercase;
   background: linear-gradient(
@@ -45,6 +46,11 @@
   line-height: 31px;
   color: #ffffff;
   margin-right: 10px;
+}
+
+.lunik_img {
+  width: 294px;
+  height: 365px;
 }
 
 .lunik-text {
@@ -94,63 +100,76 @@
 
 /* OPEN RESPONSIVE */
 
-@media only screen and (max-width: 1028px){
-  .navbar{
-    padding: 40px 0px;
-  }
+@media only screen and (max-width: 1028px) {
 
-  .lunik_info-title{
+  .lunik_info-title {
     font-size: 55px;
   }
 }
 
-@media only screen and (max-width: 856px){
-  .lunik_info-title{
+@media only screen and (max-width: 856px) {
+  .lunik_info-title {
     font-size: 45px;
   }
 }
 
-@media only screen and (max-width: 768px){
-  .lunik-info{
+@media only screen and (max-width: 768px) {
+  .lunik-info {
     display: flex;
     flex-direction: column;
   }
 
-  .luniks{
+  .luniks {
     overflow: hidden;
   }
 
-  .lunik_info-infos{
+  .lunik_info-infos {
     margin: 0px;
   }
 
-  .lunik_img{
+  .lunik_img {
     margin-right: 290px;
   }
-  
+
+  .lunik_info-title{
+    font-size: 36.5848px;
+line-height: 98%;
+  }
 }
 
-@media only screen and (max-width: 658px){
-  .lunik_img{
+@media only screen and (max-width: 658px) {
+  .lunik_img {
     margin-right: 200px;
   }
 
-  .lunik-description{
+  .lunik-description {
     width: 100%;
   }
 }
 
-@media only screen and (max-width: 538px){
-  .lunik_img{
+@media only screen and (max-width: 538px) {
+  .lunik_img {
     margin-right: 80px;
   }
 
-  .description-info{
+  .description-info {
     font-size: 24px;
   }
 
-  .eunomia-ellipse{
+  .lunik-span{
+    font-family: 'Onest';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+  }
+
+  .eunomia-ellipse {
     top: 7%;
     display: none;
+  }
+
+  .luniks .container{
+    padding: 0px;
   }
 }

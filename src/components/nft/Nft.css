@@ -109,7 +109,7 @@
 
   .nft2 {
     background-size: 1620px;
-    background-position: bottom 170% left 40%;
+    background-position: bottom 150% left 40%;
   }
 
   .nft-image {
@@ -123,10 +123,10 @@
     overflow: hidden;
   }
 
-  .navbar {
+  /* .navbar {
     padding: 40px 0px;
     margin-bottom: 30px;
-  }
+  } */
 
   .nft-image2 {
     display: block;
@@ -151,7 +151,7 @@
   }
 
   .nft-image {
-    top: 16%;
+    top: 12%;
     left: 70%;
   }
 
@@ -170,6 +170,11 @@
   .navbar {
     padding: 30px 0px;
   }
+
+  .nft2 .container {
+    padding: 0px
+  }
+  
 }
 
 @media only screen and (max-width: 448px) {
@@ -187,7 +192,7 @@
   }
 
   .nft2 {
-    background-position: bottom 190% left 40%;
+    background-position: bottom 160% left 40%;
   }
 
   .nfts {

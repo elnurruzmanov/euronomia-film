@@ -4,7 +4,6 @@ import "./Home.css";
 //routers
 import { Link } from "react-router-dom";
 
-import { motion } from "framer-motion";
 
 //Images
 import Eunomia from "../../images/eunomia.png";
@@ -18,6 +17,7 @@ import Meteorit7 from "../../images/meteorites7.png";
 import Meteorit8 from "../../images/meteorites8.png";
 import Meteorit9 from "../../images/meteorites9.png";
 import EunomiaEllipse from "../../images/nft21.png";
+import Home21 from "../../images/home21.png";
 
 import Navbar from "../Navbar/Navbar";
 
@@ -46,6 +46,8 @@ const Home = () => {
           <img src={Meteorit8} alt="meteorit8" className="meteorit8" />
           <img src={Meteorit9} alt="meteorit9" className="meteorit9" />
           <img src={EunomiaEllipse} alt="" className="eunomia-ellipse" />
+          <img src={Home21} alt="" className="home21" />
+        
         </div>
       </div>
     </div>

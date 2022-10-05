@@ -16,6 +16,10 @@
   margin-left: 80px;
 }
 
+.swiper-button-next{
+  width: 20px;
+}
+
 .about-left {
   position: absolute;
   top: 30%;
@@ -135,8 +139,9 @@
     margin-left: 0;
   }
 
+
   .about-group {
-    bottom: 0%;
+    bottom: -3%;
     width: 200px;
     right: 30%;
   }
@@ -234,6 +239,10 @@
     z-index: 999;
   }
 
+  .about .container {
+    padding: 0px
+  }
+
 
 }
 
@@ -244,6 +253,12 @@
 
   .about_img-text {
     top: 36.6%;
+  }
+
+  
+  .swiper-wrapper{
+    width: 300px;
+    height: 100px;
   }
 
   .line {
