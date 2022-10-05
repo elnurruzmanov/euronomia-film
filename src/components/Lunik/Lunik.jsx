@@ -40,7 +40,7 @@ const Lunik = () => {
         <div className="lunik-description">
           <h2 className="description-info">DESCRIPTION</h2>
           <p className="description-text">
-          Lunik-3 is based on (possibly) real facts, according to which the Russian satellite, which transmitted the first images of the dark side of the moon to Earth, was dismantled in Mexico in 1959. Recently declassified documents reveal a CIA plot to force Mexican agents to open Lunic 3 to help the US win the space race against the USSR.
+            Lunik-3 is based on (possibly) real facts, according to which the Russian satellite, which transmitted the first images of the dark side of the moon to Earth, was dismantled in Mexico in 1959. Recently declassified documents reveal a CIA plot to force Mexican agents to open Lunic 3 to help the US win the space race against the USSR.
           </p>
         </div>
       </div>
