@@ -13,6 +13,7 @@
 .lunik-info {
   display: flex;
   align-items: center;
+  margin-top: 40px;
 }
 
 .lunik_info-infos {
@@ -23,7 +24,7 @@
   font-family: "Monument Extended";
   font-style: normal;
   font-weight: 400;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 116.5%;
   letter-spacing: -0.025em;
   text-transform: uppercase;
@@ -50,7 +51,8 @@
 
 .lunik_img {
   width: 294px;
-  height: 365px;
+  height: 355px;
+  filter: blur(1px);
 }
 
 .lunik-text {
