@@ -139,6 +139,8 @@
 
   .polyglot_img{
     margin-right: 290px;
+    width: 250px;
+    height: 320px;
     margin-top: 30px;
   }
   .navbar-list.open{
@@ -155,6 +157,9 @@
 @media only screen and (max-width: 658px){
   .polyglot_img{
     margin-right: 200px;
+    width: 220px;
+    height: 300px;
+    
   }
 
   .polyglot-description{
@@ -164,7 +169,8 @@
 
 @media only screen and (max-width: 538px){
   .polyglot_img{
-    margin-right: 80px;
+    width: 220px;
+    height: 310px;
   }
 
   .description-info{
@@ -193,6 +199,18 @@ line-height: 23px;
   }
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 405px){
+  .polyglot_img{
+    width: 220px;
+    height: 310px;
+    margin-left: 60px;
+  }
+}
 
+@media only screen and (max-width: 340px){
+  .polyglot_img{
+    width: 220px;
+    height: 310px;
+    margin-right: 140px;
+  }
 }

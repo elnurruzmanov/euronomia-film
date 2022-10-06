@@ -131,6 +131,9 @@
 
   .lunik_img {
     margin-right: 290px;
+    width: 250px;
+    height: 320px;
+    margin-top: 30px;
   }
 
   .lunik_info-title{
@@ -142,6 +145,8 @@ line-height: 98%;
 @media only screen and (max-width: 658px) {
   .lunik_img {
     margin-right: 200px;
+    width: 220px;
+    height: 300px;
   }
 
   .lunik-description {
@@ -152,6 +157,8 @@ line-height: 98%;
 @media only screen and (max-width: 538px) {
   .lunik_img {
     margin-right: 80px;
+    width: 220px;
+    height: 310px;
   }
 
   .description-info {
@@ -175,3 +182,33 @@ line-height: 23px;
     padding: 0px;
   }
 }
+
+@media only screen and (max-width: 455px){
+  .lunik_img{
+    width: 220px;
+    height: 310px;
+    margin-right: 180px;
+  }
+}
+@media only screen and (max-width: 410px){
+  .lunik_img{
+    width: 220px;
+    height: 310px;
+    margin-right: 160px;
+  }
+}
+@media only screen and (max-width: 410px){
+  .lunik_img{
+    width: 220px;
+    height: 310px;
+    margin-right: 130px;
+  }
+}
+@media only screen and (max-width: 340px){
+  .lunik_img{
+    width: 220px;
+    height: 310px;
+    margin-right: 100px;
+  }
+}
+

@@ -2,7 +2,7 @@ import React from "react";
 import "./Polyglot.css";
 
 //images
-import PolyGlotImg from "../../images/polyglot.jpg";
+import PolyGlotImg from "../../images/lunik3.png";
 
 //navbar
 import Navbar from "../Navbar/Navbar";
