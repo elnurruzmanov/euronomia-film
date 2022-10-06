@@ -337,7 +337,7 @@
 
 /* OPEN ANIMATIONS */
 
-.meteorit6:hover{
+.meteorit6{
   animation-name: Meteorit6;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -353,7 +353,7 @@
   }
 }
 
-.meteorit3:hover{
+.meteorit3{
   animation-name: Meteorit3;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -369,7 +369,7 @@
   }
 }
 
-.meteorit1:hover{
+.meteorit1{
   animation-name: Meteorit1;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -383,7 +383,7 @@
   to{
     transform: translate(90px,-90px);
   }
-}.meteorit2:hover{
+}.meteorit2{
   animation-name: Meteorit2;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -397,7 +397,7 @@
   to{
     transform: translate(-90px,90px);
   }
-}.meteorit7:hover{
+}.meteorit7{
   animation-name: Meteorit7;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -411,7 +411,7 @@
   to{
     transform: translate(90px,0px);
   }
-}.meteorit8:hover{
+}.meteorit8{
   animation-name: Meteorit8;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -425,7 +425,7 @@
   to{
     transform: translate(150px,0px);
   }
-}.meteorit9:hover{
+}.meteorit9{
   animation-name: Meteorit9;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -441,7 +441,7 @@
   }
 }
 
-.meteorit5:hover{
+.meteorit5{
   animation-name: Meteorit5;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -457,7 +457,7 @@
   }
 }
 
-.meteorites:hover{
+.meteorites{
   animation-name: Meteorites;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -473,7 +473,7 @@
   }
 }
 
-.meteorit4:hover{
+.meteorit4{
   animation-name: Meteorit4;
   animation-iteration-count: infinite;
   animation-direction: alternate;
