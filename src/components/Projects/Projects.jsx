@@ -38,7 +38,7 @@ const Projects = () => {
                 <div className="drama-info">
                   <h4 className="drama">2023 Black, comedy</h4>
                   <p className="drama-text">In production</p>
-                  <Link to="/polyglots" className="polyglots2-link">Learn more</Link>
+                  <Link to="/lunik" className="polyglots2-link">Learn more</Link>
                   <img src={ProjectRights} alt="project-rights" className="project-rights" />
                   <img src={ProjectLefts} alt="project-rights" className="project-lefts" />
                 </div>

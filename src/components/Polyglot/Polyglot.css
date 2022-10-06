@@ -11,7 +11,7 @@
 
 .polyglot-info {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   margin-top: 40px;
 }
 
@@ -87,6 +87,7 @@
   width: 294px;
   height: 355px;
   filter: blur(1px);
+  margin-top: 20px;
 }
 
 .description-text {
@@ -108,10 +109,6 @@
 /* OPEN RESPONSIVE */
 
 @media only screen and (max-width: 1028px){
- 
-
- 
-
   .polyglot_info-title{
     font-size: 55px;
   }
@@ -138,7 +135,7 @@
   }
 
   .polyglot_img{
-    margin-right: 290px;
+    /* margin-right: 290px; */
     width: 250px;
     height: 320px;
     margin-top: 30px;
@@ -156,7 +153,7 @@
 
 @media only screen and (max-width: 658px){
   .polyglot_img{
-    margin-right: 200px;
+    /* margin-right: 200px; */
     width: 220px;
     height: 300px;
     
@@ -203,7 +200,7 @@ line-height: 23px;
   .polyglot_img{
     width: 220px;
     height: 310px;
-    margin-left: 60px;
+    /* margin-left: 60px; */
   }
 }
 
@@ -211,6 +208,6 @@ line-height: 23px;
   .polyglot_img{
     width: 220px;
     height: 310px;
-    margin-right: 140px;
+    /* margin-right: 140px; */
   }
 }
