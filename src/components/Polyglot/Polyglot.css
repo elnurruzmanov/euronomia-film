@@ -24,7 +24,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
-  line-height: 106.5%;
+  line-height: 116.5%;
   letter-spacing: -0.025em;
   text-transform: uppercase;
   background: linear-gradient(
@@ -190,10 +190,10 @@
     font-size: 40px;
   }
 
-  .polyglots-text{
+  /* .polyglots-text{
 font-size: 18px;
 line-height: 23px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 405px){
