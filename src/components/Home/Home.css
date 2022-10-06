@@ -489,6 +489,23 @@
   }
 }
 
+.home21{
+  animation-name: Meteorit4;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 3s;
+}
+
+@keyframes home21{
+  from{
+    transform: translate(0,0);
+  }
+  to{
+    transform: translate(-120px,-40px);
+  }
+}
+
+
 
 
 /* .eunomia-img:hover{
