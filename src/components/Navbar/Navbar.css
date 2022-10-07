@@ -18,7 +18,7 @@
   font-weight: 400;
   font-size: 21.2766px;
   line-height: 27px;
-  color: #969595;
+  color: #B4B1B0; 
   opacity: 0.7;
   text-decoration: none;
   transition: 0.4s;
@@ -58,12 +58,12 @@
   font-weight: 400;
   font-size: 25.3187px;
   line-height: 126.5%;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.005em;
   text-transform: uppercase;
   background: linear-gradient(
     95.42deg,
-    #f8f8f8 15.14%,
-    rgba(239, 239, 239, 0.84) 66.86%
+    #fff 15.14%,
+    #fff 66.86%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -156,6 +156,7 @@
     height: 50px;
     align-items: center;
     justify-content: center;
+    
     cursor: pointer;
     position: absolute;
     right: 9%;
@@ -167,7 +168,7 @@
     position: relative;
     width: 30px;
     height: 2px;
-    background-color: #fff;
+    background-color: #B4B1B0;
   }
 
   .nav-toggle .bar::before,
@@ -175,7 +176,7 @@
     content: "";
     position: absolute;
     height: 2px;
-    background-color: #fff;
+    background-color: #B4B1B0;
     border-radius: 2px;
     transition: all 0.45s ease-in-out;
   }

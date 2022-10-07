@@ -49,31 +49,32 @@
   font-family: "Monument Extended";
   font-style: normal;
   font-weight: 400;
-  font-size: 80px;
-  line-height: 126.5%;
-  letter-spacing: -0.025em;
+  font-size: 65px;
+  line-height: 116.5%;
+  letter-spacing: -0.005em;
   text-transform: uppercase;
   background: linear-gradient(
     95.64deg,
-    #f8f8f8 7.72%,
+    #B5B4B5 7.72%,
     rgba(239, 239, 239, 0.84) 74.98%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-shadow: 0px 4.06593px 20.3297px rgba(0, 0, 0, 0.35);
-  transition:1s;
+  text-shadow: 0px 4.06593px 20.3297px rgba(0, 0, 0, 0.35); 
 }
 
 .projects-title:hover {
   background-clip: text;
   background-image: linear-gradient(
     to right,
-    #fe4e00,
-    #fe4e00,
-    #fe4e00,
-    #fe4e00
-  )
+    #000,
+    #000,
+    #000,
+    #000
+    
+  );
+  -webkit-text-stroke: 2px #FF7B3F;
 }
 
 .polyglots-link {

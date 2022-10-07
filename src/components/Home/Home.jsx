@@ -4,7 +4,6 @@ import "./Home.css";
 //routers
 import { Link } from "react-router-dom";
 
-
 //Images
 import Eunomia from "../../images/eunomia.png";
 import Meteorit from "../../images/meteorites1.png";
@@ -27,12 +26,14 @@ const Home = () => {
       <div className="container">
         <Navbar />
         <div className="eunomia-info">
-          <h1 className="eunomia-title">EUNOMIA</h1>
-          <h1 className="eunomia-title2">FILM</h1>
+          <div className="eunomia-infos">
+            <h1 className="eunomia-title">EUNOMIA</h1>
+            <h1 className="eunomia-title2">FILM</h1>
+          </div>
           <Link to="/projects" className="projects22">
             See Projects
           </Link>
-  
+
           <img src={Eunomia} alt="eunomia" className="eunomia-img" />
 
           <img src={Meteorit} alt="meteorites" className="meteorites" />
@@ -47,7 +48,6 @@ const Home = () => {
           <img src={Meteorit9} alt="meteorit9" className="meteorit9" />
           <img src={EunomiaEllipse} alt="" className="eunomia-ellipse" />
           <img src={Home21} alt="" className="home21" />
-        
         </div>
       </div>
     </div>

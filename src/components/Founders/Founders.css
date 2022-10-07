@@ -2,7 +2,7 @@
   background-color: #1a1a1a;
   background-image: url("../../images/ellipse.png"), url("../../images/ellipse2.png");
   background-repeat: no-repeat no-repeat;
-  background-position: top 210px, top 100px right 0%;
+  background-position: top 0% left -20%, top 50px right -20%;
   position: relative;
   padding: 40px 40px;
 }
@@ -13,11 +13,11 @@
   font-weight: 400;
   font-size: 48px;
   line-height: 120%;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.005em;
   text-transform: uppercase;
   background: linear-gradient(
     95.34deg,
-    #f8f8f8 24.04%,
+    #B5B4B5 24.04%,
     rgba(239, 239, 239, 0.84) 82.81%
   );
   -webkit-background-clip: text;
@@ -35,7 +35,7 @@
 }
 
 .founders_informations {
-  width: 510px;
+  width: 400px;
 }
 
 .founders_info-title {
@@ -44,11 +44,11 @@
   font-weight: 400;
   font-size: 36px;
   line-height: 126.5%;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.005em;
   text-transform: uppercase;
   background: linear-gradient(
     95.34deg,
-    #f8f8f8 24.04%,
+    #B5B4B5 24.04%,
     rgba(239, 239, 239, 0.84) 82.81%
   );
   -webkit-background-clip: text;
@@ -83,11 +83,11 @@
   font-weight: 400;
   font-size: 48px;
   line-height: 126.5%;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.005em;
   text-transform: uppercase;
   background: linear-gradient(
     95.42deg,
-    #f8f8f8 15.14%,
+    #B5B4B5 15.14%,
     rgba(239, 239, 239, 0.84) 66.86%
   );
   -webkit-background-clip: text;

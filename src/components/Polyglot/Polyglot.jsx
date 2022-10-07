@@ -29,17 +29,17 @@ const Polyglot = () => {
               2023
             </p>
             <p className="polyglots-text">
-              <span className="polyglot-span">Director: </span>
+              <span className="polyglot-span">Director:</span>
               Antonio Zavala Kugler
             </p>
             <p className="polyglots-text">
-              <span className="polyglot-span">Producers: </span>
+              <span className="polyglot-span">Producers:</span>
               Yulia Kim - von den Driesch, Anna Rot, Victor Zevala Kugler
             </p>
           </div>
         </div>
         <div className="polyglot-description">
-          <h2 className="description-info">DESCRIPTION</h2>
+          <h2 className="description-info">DESCRIPTION:</h2>
           <p className="description-text">
             Moscow. English speaking club. Muscovites meet native speakers in
             this club for money and talk on various topics for language

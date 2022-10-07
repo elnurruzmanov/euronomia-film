@@ -1,7 +1,7 @@
 .nft {
   background-color: #1a1a1a;
   background-image: url("../../images/nftEllipse.png");
-  background-position: left -120px bottom -222px;
+  background-position: left -190px bottom -262px;
   background-repeat: no-repeat;
 
   position: relative;
@@ -20,7 +20,7 @@
   background-image: url("../../images/nft2.png");
   background-repeat: no-repeat;
   background-size: 650px;
-  background-position: right 30px bottom -10px;
+  background-position: right 30px top 50%;
 }
 
 .nft3 {
@@ -40,11 +40,11 @@
   font-size: 80px;
   line-height: 100.5%;
   text-align: center;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.005em;
   text-transform: uppercase;
   background: linear-gradient(
     182.98deg,
-    #f8f8f8 -1.21%,
+    #B5B4B5 -1.21%,
     rgba(242, 242, 242, 0.84) 110.1%
   );
   -webkit-background-clip: text;

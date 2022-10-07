@@ -28,7 +28,7 @@ const Lunik = () => {
               2023
             </p>
             <p className="lunik-text">
-              <span className="lunik-span">Director: </span>
+              <span className="lunik-span">Director:</span>
               Oleg Asadulin, Yulia Kim - von den Driesch
             </p>
             <p className="lunik-text">
@@ -38,7 +38,7 @@ const Lunik = () => {
           </div>
         </div>
         <div className="lunik-description">
-          <h2 className="description-info">DESCRIPTION</h2>
+          <h2 className="description-info">DESCRIPTION:</h2>
           <p className="description-text">
             Lunik-3 is based on (possibly) real facts, according to which the Russian satellite, which transmitted the first images of the dark side of the moon to Earth, was dismantled in Mexico in 1959. Recently declassified documents reveal a CIA plot to force Mexican agents to open Lunic 3 to help the US win the space race against the USSR.
           </p>

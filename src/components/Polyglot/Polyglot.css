@@ -2,7 +2,7 @@
   background-color: #1a1a1a;
   background-image: url("../../images/polyglotRights.png"), url("../../images/polyglotLefts.png");
   background-repeat: no-repeat, no-repeat;
-  background-position: top 0% left 0%, bottom 0% right -210%;
+  background-position: top 0% left 0%, bottom 0% right 260%;
 }
 
 .polyglot .container {
@@ -25,11 +25,11 @@
   font-weight: 400;
   font-size: 50px;
   line-height: 116.5%;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.005em;
   text-transform: uppercase;
   background: linear-gradient(
     95.64deg,
-    #f8f8f8 7.72%,
+    #B5B4B5 7.72%,
     rgba(239, 239, 239, 0.84) 74.98%
   );
   -webkit-background-clip: text;
@@ -69,11 +69,11 @@
   font-weight: 400;
   font-size: 36px;
   line-height: 126.5%;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.005em;
   text-transform: uppercase;
   background: linear-gradient(
     95.34deg,
-    #f8f8f8 24.04%,
+    #B5B4B5 24.04%,
     rgba(239, 239, 239, 0.84) 82.81%
   );
   -webkit-background-clip: text;
