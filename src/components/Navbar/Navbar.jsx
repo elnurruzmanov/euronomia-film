@@ -42,7 +42,7 @@ const Navbar = () => {
           </li>
         </ul>
 
-        {/* <img src={navToggle} alt="" className="nav-toggless" /> */}
+        <div className="navbar-toggle"></div>
 
         <div className="link3">
           <Link to="/" className="menu-link"><h1 className="navbar_link-title">EUNOMIA </h1>FILM</Link>

@@ -281,11 +281,9 @@
     display: none;
   }
 
-  /* .eunomia-title2{
-    top:20%;
+  .eunomia-title2{
     font-size: 60px;
-
-  } */
+  }
 
   .meteorit8{
     width:500px;
@@ -307,11 +305,10 @@
 }
 
 @media only screen and (max-width: 585px) {
-  /* .eunomia-title2{
-    top:25%;
+  .eunomia-title2{
     font-size: 60px;
     z-index: 99;
-  } */
+  }
 }
 
 @media only screen and (max-width: 448px) {

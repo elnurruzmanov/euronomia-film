@@ -172,12 +172,20 @@
     margin-right: 1px;
   }
 
-  .nav-toggle .bar {
+  .navbar-toggle{
+    width: 20px;height: 2px;
+    background-color: #B4B1B0;
+    position: absolute;
+    right: 7%;
+    top: 90.6%;
+  }
+
+  /* .nav-toggle .bar {
     position: relative;
     width: 30px;
     height: 2px;
     background-color: #B4B1B0;
-  }
+  } */
 
   /* .nav-toggless{
     position: absolute;
@@ -193,7 +201,6 @@
     background-color: #B4B1B0;
     border-radius: 2px;
     transition: all 0.45s ease-in-out;
-    
   }
 
    .nav-toggle .bar::before {
