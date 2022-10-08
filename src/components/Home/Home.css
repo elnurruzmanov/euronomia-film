@@ -203,7 +203,7 @@
   text-align: center;
   position: absolute;
 
-  top: 23%;
+  top: 25%;
   }
 
   .eunomia-img {
@@ -279,7 +279,7 @@
   }
 
   .eunomia-title2{
-    top:18%;
+    top:20%;
     font-size: 60px;
 
   }
@@ -305,7 +305,7 @@
 
 @media only screen and (max-width: 585px) {
   .eunomia-title2{
-    top:23%;
+    top:25%;
     font-size: 60px;
     z-index: 99;
   }
