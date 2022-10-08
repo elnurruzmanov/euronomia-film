@@ -201,9 +201,9 @@
   background-clip: text;
   text-shadow: 0px 20px 100px rgba(0, 0, 0, 0.35);
   text-align: center;
-  position: absolute;
+  /* position: absolute;
 
-  top: 25%;
+  top: 25%; */
   }
 
   .eunomia-img {
@@ -278,11 +278,11 @@
     display: none;
   }
 
-  .eunomia-title2{
+  /* .eunomia-title2{
     top:20%;
     font-size: 60px;
 
-  }
+  } */
 
   .meteorit8{
     width:500px;
@@ -304,11 +304,11 @@
 }
 
 @media only screen and (max-width: 585px) {
-  .eunomia-title2{
+  /* .eunomia-title2{
     top:25%;
     font-size: 60px;
     z-index: 99;
-  }
+  } */
 }
 
 @media only screen and (max-width: 448px) {
