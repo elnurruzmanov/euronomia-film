@@ -180,6 +180,7 @@
     margin-top: 50px;
       font-weight: 300;
       z-index: 2;
+      margin: 0px;
   }
 
   .eunomia-title2{
@@ -204,6 +205,8 @@
   /* position: absolute;
 
   top: 25%; */
+  margin:0px;
+  z-index: 99;
   }
 
   .eunomia-img {
