@@ -221,25 +221,6 @@
     overflow: hidden;
   }
 
-  .navbar {
-    padding: 40px 0px;
-    margin-bottom: 40px;
-  }
-
-  .navbar-list.open {
-    transform: translateY(0);
-    align-items: center;
-    display: flex;
-    height: 151vh;
-    justify-content: flex-start;
-    left: 30%;
-    padding: 50px;
-    top: -51%;
-    transform: translateY(0);
-    width: 90%;
-    z-index: 999;
-  }
-
   .about .container {
     padding: 0px
   }

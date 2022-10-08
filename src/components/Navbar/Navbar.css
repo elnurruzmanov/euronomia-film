@@ -12,6 +12,10 @@
   justify-content: space-between;
 }
 
+.navbar-toggle{
+  display: none;
+}
+
 .navbar_link {
   font-family: "Onest";
   font-style: normal;
@@ -119,6 +123,10 @@
 
   .navbar_link {
     font-size: 25px;
+  }
+
+  .navbar-toggle{
+    display: block;
   }
 
   .menu-link {
@@ -253,6 +261,14 @@
   }
 }
 
+.navbar-toggle{
+  width: 20px;height: 2px;
+  background-color: #B4B1B0;
+  position: absolute;
+  right: 7%;
+  top: 90.6%;
+}
+
 @media only screen and (max-width: 448px) {
   .navbar-list.open {
     transform: translateY(0);
@@ -264,5 +280,13 @@
     top: -49%;
     padding: 50px;
     left: 12%;
+  }
+
+  .navbar-toggle{
+    width: 20px;height: 2px;
+    background-color: #B4B1B0;
+    position: absolute;
+    right: 6%;
+    top: 90.6%;
   }
 }
