@@ -5,7 +5,7 @@ import "./Navbar.css";
 import { Link, NavLink } from "react-router-dom";
 // import { useState } from "react";
 
-
+// import navToggle from "../../images/navToggle.png"
 
 const Navbar = () => {
 
@@ -41,6 +41,8 @@ const Navbar = () => {
             </NavLink>
           </li>
         </ul>
+
+        {/* <img src={navToggle} alt="" className="nav-toggless" /> */}
 
         <div className="link3">
           <Link to="/" className="menu-link"><h1 className="navbar_link-title">EUNOMIA </h1>FILM</Link>

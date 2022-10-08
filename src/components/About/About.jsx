@@ -25,8 +25,8 @@ import { Navigation } from "swiper";
 
 //images
 import aboutSwiper from "../../images/aboutSwiper1.jpg";
-import aboutSwiper2 from "../../images/aboutSwiper2.jpg";
-import aboutSwiper3 from "../../images/aboutSwiper3.jpg";
+// import aboutSwiper2 from "../../images/aboutSwiper2.jpg";
+// import aboutSwiper3 from "../../images/aboutSwiper3.jpg";
 import aboutSwiper4 from "../../images/aboutSwiper4.jpg";
 import aboutSwiper5 from "../../images/aboutSwiper5.jpg";
 
@@ -46,20 +46,20 @@ const About = () => {
                 className="about-swiper"
               />
             </SwiperSlide>
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <img
                 src={aboutSwiper2}
                 alt="aboutSwiper2"
                 className="about-swiper"
               />
-            </SwiperSlide>
-            <SwiperSlide>
+            </SwiperSlide> */}
+            {/* <SwiperSlide>
               <img
                 src={aboutSwiper3}
                 alt="aboutSwiper3"
                 className="about-swiper"
               />
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide>
               <img
                 src={aboutSwiper4}

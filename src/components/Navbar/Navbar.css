@@ -97,6 +97,10 @@
     z-index: 9;
   }
 
+  .menu-link{
+    margin-top: 8px;
+  }
+
   .navbar-item {
     margin: 10px 0px;
   }
@@ -155,13 +159,17 @@
     width: 20px;
     height: 50px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     
     cursor: pointer;
     position: absolute;
     right: 9%;
     z-index: 9999;
     margin-left: 24px;
+  }
+
+  .nav-toggle:nth-child(3){
+    margin-right: 1px;
   }
 
   .nav-toggle .bar {
@@ -171,6 +179,12 @@
     background-color: #B4B1B0;
   }
 
+  /* .nav-toggless{
+    position: absolute;
+    right: 9%;
+    top: 84%;
+  } */
+
   .nav-toggle .bar::before,
   .nav-toggle .bar::after {
     content: "";
@@ -179,9 +193,10 @@
     background-color: #B4B1B0;
     border-radius: 2px;
     transition: all 0.45s ease-in-out;
+    
   }
 
-  .nav-toggle .bar::before {
+   .nav-toggle .bar::before {
     width: 30px;
     transform: translateY(-8px);
     left: 0;
@@ -190,7 +205,7 @@
   .nav-toggle .bar::after {
     width: 10px;
     transform: translateY(8px);
-  }
+  } 
 
   .nav-toggle.open > .bar {
     transform: translateX(-40px);
@@ -202,6 +217,7 @@
     width: 32px;
     transform: rotate(45deg) translate(26px, -26px);
     z-index: 9;
+    
   }
   .nav-toggle.open > .bar::after {
     width: 32px;

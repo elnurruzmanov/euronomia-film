@@ -24,7 +24,7 @@ const Founders = () => {
     <div className="founders">
       <div className="container">
         <Navbar />
-        <h1 className="founders-title">Julia Kim - von den Dreisch</h1>
+        <h1 className="founders-title">Julia Kim - von den Driesch</h1>
         <div className="founders-info">
           <img src={Julia} alt="Julia Kim" className="founders-info_img" />
           <div className="founders_informations">
@@ -68,12 +68,12 @@ const Founders = () => {
             <a href=" https://www.imdb.com/title/tt7336410/?ref_=nv_sr_srsg_0" className="films-name">
             <img className="films-name-img" src={Suleyman} alt="Suleyman" />           
              </a>
-            <a href="https://www.kinopoisk.ru/film/992648/" className="films-name">
+            {/* <a href="https://www.kinopoisk.ru/film/992648/" className="films-name">
             <img className="films-name-img" src={Hit} alt="Hit" />
              </a>
             <a href="https://www.kinopoisk.ru/film/957724/" className="films-name">
             <img className="films-name-img" src={Bird} alt="Bird" />       
-            </a>
+            </a> */}
             
            
            

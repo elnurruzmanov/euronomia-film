@@ -23,7 +23,7 @@ const Projects = () => {
                 </Link>
                 <div className="drama-info">
                   <h4 className="drama">2022 Drama, comedy</h4>
-                  <p className="drama-text text2">In production</p>
+                  <p className="drama-text text2">In development</p>
                   <Link to="/polyglots" className="polyglots2-link">Learn more</Link>
                 </div>
               </div>
@@ -37,7 +37,7 @@ const Projects = () => {
                 </Link>
                 <div className="drama-info">
                   <h4 className="drama">2023 Black, comedy</h4>
-                  <p className="drama-text">In production</p>
+                  <p className="drama-text">In development</p>
                   <Link to="/lunik" className="polyglots2-link">Learn more</Link>
                   <img src={ProjectRights} alt="project-rights" className="project-rights" />
                   <img src={ProjectLefts} alt="project-rights" className="project-lefts" />

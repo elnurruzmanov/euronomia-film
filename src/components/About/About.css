@@ -74,7 +74,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
-  color: #ffffff;
+  color: #A7A7A7;
   opacity: 0.9;
   width: 600px;
 }
@@ -215,6 +215,7 @@
   .about_img-title {
     top: 38%;
   }
+
 
   .about{
     overflow: hidden;

@@ -1,6 +1,7 @@
 .founders {
   background-color: #1a1a1a;
-  background-image: url("../../images/ellipse.png"), url("../../images/ellipse2.png");
+  background-image: url("../../images/ellipse.png"),
+    url("../../images/ellipse2.png");
   background-repeat: no-repeat no-repeat;
   background-position: top 0% left -20%, top 50px right -20%;
   position: relative;
@@ -17,7 +18,7 @@
   text-transform: uppercase;
   background: linear-gradient(
     95.34deg,
-    #B5B4B5 24.04%,
+    #b5b4b5 24.04%,
     rgba(239, 239, 239, 0.84) 82.81%
   );
   -webkit-background-clip: text;
@@ -48,7 +49,7 @@
   text-transform: uppercase;
   background: linear-gradient(
     95.34deg,
-    #B5B4B5 24.04%,
+    #b5b4b5 24.04%,
     rgba(239, 239, 239, 0.84) 82.81%
   );
   -webkit-background-clip: text;
@@ -63,7 +64,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
-  color: #ffffff;
+  color: #A7A7A7;
   margin-top: 20px;
 }
 
@@ -73,7 +74,6 @@
 
 .founders_informations {
   margin-left: 50px;
-  
 }
 
 /* FILMOGRAPGHY */
@@ -87,7 +87,7 @@
   text-transform: uppercase;
   background: linear-gradient(
     95.42deg,
-    #B5B4B5 15.14%,
+    #b5b4b5 15.14%,
     rgba(239, 239, 239, 0.84) 66.86%
   );
   -webkit-background-clip: text;
@@ -99,7 +99,7 @@
   margin-top: 70px;
 }
 
-.films{
+.films {
   display: flex;
   align-items: center;
   flex-flow: row wrap;
@@ -108,17 +108,17 @@
   overflow: hidden;
 }
 
-.films-name{
-  width:33%;
+.films-name {
+  width: 33%;
 }
 
-.founders1{
+.founders1 {
   position: absolute;
   top: 310px;
   left: 0px;
 }
 
-.founders2{
+.founders2 {
   position: absolute;
   top: 230px;
   right: 0px;
@@ -128,112 +128,123 @@
 
 /****************************************/
 
-@media only screen and (max-width: 768px){
-  .founders1{
+@media only screen and (max-width: 768px) {
+  .founders1 {
     width: 130px;
     top: 250px;
   }
 
-
-  .founders2{
+  .founders2 {
     position: absolute;
     top: 210px;
     right: 0px;
     width: 120px;
   }
 
-  .founders .container{
-    background-image:none 
+  .founders .container {
+    background-image: none;
   }
 
-  .founders-info{
+  .founders-info {
     display: flex;
     align-items: center;
     flex-direction: column;
   }
 
-  .founders{
+  .founders {
     overflow: hidden;
   }
 
-  .navbar-list.open{
+  .navbar-list.open {
     height: 310vh;
   }
 
-  .founders-title{
+  .founders-title {
     font-size: 34px;
   }
 
-  .founders-info_img{
+  .founders-info_img {
     width: 100%;
+  }
+
+  .founders-info_img{
+    width: 80%;
   }
 }
 
-
-@media only screen and (max-width: 588px){
-  .founders2{
+@media only screen and (max-width: 588px) {
+  .founders2 {
     display: none;
   }
 
-  .founders1{
+  .founders {
+    background-image: url("../../images/founders-fimography.png");
+    background-repeat: no-repeat;
+    background-position: top 950px right 10px;
+  }
+
+  .founders1 {
     display: none;
   }
 
-  .founders-title{
+  .founders-title {
     margin-top: 60px;
   }
 
-  .films{
+  .founders-info_img{
+    width: 90%;
+  }
+
+  .films {
     display: flex;
     align-items: center;
     flex-direction: column;
   }
 
-  .navbar-list.open{
+  .navbar-list.open {
     height: 290vh;
   }
-  .navbar{
-    padding:30px 0px;
+  .navbar {
+    padding: 30px 0px;
   }
 
-  .founders{
+  .founders {
     padding: 0px;
   }
 
-  .films-name{
+  .films-name {
     width: 100%;
     padding: 7px 0px;
   }
 
-  .founders_info-title{
-    font-size:20px
+  .founders_info-title {
+    font-size: 20px;
   }
 
-  .films-info-title{
+  .films-info-title {
     font-size: 30px;
   }
 
-  .founders-text{
+  .founders-text {
     font-size: 12px;
     line-height: 155%;
   }
 
-  .founders_informations{
-    margin-left:0px;
-    width:400px
+  .founders_informations {
+    margin-left: 0px;
+    width: 400px;
   }
 
-  .founders-title{
+  .founders-title {
     font-size: 24px;
   }
 }
 
-@media only screen and (max-width: 398px){
-  .founders_informations{
+@media only screen and (max-width: 398px) {
+  .founders_informations {
     width: 300px;
-
   }
-  .films-info-title{
+  .films-info-title {
     font-size: 24px;
   }
 }
